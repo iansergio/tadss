@@ -1,4 +1,4 @@
-package exercises.four.operations;
+package four.operations;
 
 import java.util.List;
 

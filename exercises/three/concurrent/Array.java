@@ -1,4 +1,4 @@
-package exercises.three.concurrent;
+package three.concurrent;
 
 import java.util.ArrayList;
 
