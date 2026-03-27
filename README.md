@@ -43,6 +43,32 @@
 
 ---
 
+### Estados de uma Thread
+
+**New (Novo)**  
+Thread foi criada, mas ainda não está pronta para execução.
+
+**Ready (Pronta)**  
+Thread está pronta e aguardando ser escolhida pelo scheduler para execução.
+
+**Running (Executando)**  
+Thread está em execução e utilizando a CPU.
+
+**Dead (Finalizada)**  
+Thread já terminou sua execução e não pode ser iniciada novamente.
+
+---
+
+### Métodos Importantes
+
+**start()**  
+Coloca a thread no estado *Ready*, ou seja, ela entra na fila de execução aguardando o scheduler.
+
+**thread.sleep()**  
+Faz a thread entrar em estado de espera (*waiting*) por pelo menos o tempo especificado, até poder voltar para execução.
+
+---
+
 ### Sincronização
 
 **O que é um semáforo?**  
