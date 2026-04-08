@@ -1,4 +1,4 @@
-package five.entity;
+package exercises.ex05.entity;
 
 public class Vault implements Runnable {
 

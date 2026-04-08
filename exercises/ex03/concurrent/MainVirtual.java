@@ -1,4 +1,4 @@
-package three.concurrent;
+package exercises.ex03.concurrent;
 
 import java.util.ArrayList;
 import java.util.Random;

@@ -1,7 +1,7 @@
-package five;
+package exercises.ex05;
 
-import five.entity.Bank;
-import five.entity.Transaction;
+import exercises.ex05.entity.Bank;
+import exercises.ex05.entity.Transaction;
 
 public class Main {
     public static void main(String[] args) throws InterruptedException {

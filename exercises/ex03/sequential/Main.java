@@ -1,4 +1,4 @@
-package three.sequential;
+package exercises.ex03.sequential;
 
 import java.util.ArrayList;
 import java.util.Random;

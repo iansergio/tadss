@@ -1,11 +1,11 @@
-package four;
+package exercises.ex04;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import four.operations.Add;
-import four.operations.Print;
-import four.operations.Remove;
+import exercises.ex04.operations.Add;
+import exercises.ex04.operations.Print;
+import exercises.ex04.operations.Remove;
 
 public class Main {
     public static void main(String[] args) {

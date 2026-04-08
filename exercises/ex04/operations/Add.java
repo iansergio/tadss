@@ -1,4 +1,4 @@
-package four.operations;
+package exercises.ex04.operations;
 
 import java.util.List;
 import java.util.Random;

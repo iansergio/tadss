@@ -1,4 +1,4 @@
-package one;
+package exercises.ex01;
 
 import java.util.Date;
 

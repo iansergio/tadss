@@ -1,4 +1,4 @@
-package five.entity;
+package exercises.ex05.entity;
 
 import java.util.Random;
 
