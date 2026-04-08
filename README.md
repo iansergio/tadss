@@ -1,10 +1,11 @@
 # Tópicos Avançados em Desenvolvimento de Software e Sistemas
 
 ## Programação Concorrente
+#### Exercícios disponíveis [aqui](https://github.com/glaucioscheibel/exercicios?tab=readme-ov-file#programa%C3%A7%C3%A3o-concorrente)
 
-### Conceitos Fundamentais
+### Conceitos
 
-**O que é um processo (task)?**  
+**O que é um processo?**  
 É um programa em execução.
 
 **O que é um sistema operacional multitarefa?**  
@@ -24,10 +25,6 @@
 
 **O que é throughput?**  
 É a quantidade de operações que um sistema consegue processar em um determinado intervalo de tempo.
-
----
-
-### Threads e Execução
 
 **O que é uma thread daemon?**  
 É uma thread de baixa prioridade que executa em segundo plano. Um exemplo é o garbage collector. Threads daemon são finalizadas automaticamente quando não há mais threads de usuário em execução.
@@ -59,7 +56,7 @@ Thread já terminou sua execução e não pode ser iniciada novamente.
 
 ---
 
-### Métodos Importantes
+### Métodos 
 
 **start()**  
 Coloca a thread no estado *Ready*, ou seja, ela entra na fila de execução aguardando o scheduler.
