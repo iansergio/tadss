@@ -23,7 +23,8 @@ public class Attendant implements Runnable {
             removedCustomer.setStartService(System.currentTimeMillis());
             removedCustomer.setStatus(Status.ONGOING);
 
-            int randomTime = random.nextInt(120000 - 30000 + 1) + 30000; // 30 a 120 segundos
+            // 1000-3000ms (teste) | 30000-120000ms (original: 30-120 segundos)
+            int randomTime = random.nextInt(3000 - 1000 + 1) + 1000;
             try {
                 Thread.sleep(randomTime);
             } catch (InterruptedException e) {

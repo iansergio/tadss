@@ -14,9 +14,11 @@ public class CustomerGenerator implements Runnable {
     public void run() {
         int c = 1;
         double startTime = System.currentTimeMillis();
+        long SIMULATION_TIME = 30000; // 30s (teste) | 7200000 (2 horas)
         
-        while (System.currentTimeMillis() < startTime + 7200000) { // 2 horas
-            int randomTime = random.nextInt(50000 - 5000 + 1) + 5000; // 5 a 50 segundos
+        while (System.currentTimeMillis() < startTime + SIMULATION_TIME) {
+            // 500-5000ms (teste) | 5000-50000ms (original: 5-50 segundos)
+            int randomTime = random.nextInt(5000 - 500 + 1) + 500;
             try {
                 Thread.sleep(randomTime);
             } catch (InterruptedException e) {

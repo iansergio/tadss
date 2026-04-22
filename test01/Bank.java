@@ -5,18 +5,16 @@ public class Bank {
         Line waitingLine = new Line();
         
         CustomerGenerator generator = new CustomerGenerator(waitingLine);
-        Thread genThread = Thread.ofPlatform().name("Generator").start(generator);
+        Thread gt = Thread.ofPlatform().name("Gerador").start(generator);
         
         Thread[] attendants = new Thread[2];
         for (int i = 1; i <= 2; i++) {
             Attendant attendant = new Attendant(i, waitingLine);
-            attendants[i - 1] = Thread.ofPlatform()
-                .name("Attendant-" + i)
-                .start(attendant);
+            attendants[i - 1] = Thread.ofPlatform().name("Atendente " + i).start(attendant);
         }
 
         try {
-            genThread.join();
+            gt.join();
             for (Thread t : attendants) {
                 t.join();
             }
