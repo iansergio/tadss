@@ -1,4 +1,4 @@
-# Tópicos Avançados em Desenvolvimento de Software e Sistemas
+<!-- # Tópicos Avançados em Desenvolvimento de Software e Sistemas
 
 ## Programação Concorrente
 #### Exercícios disponíveis [aqui](https://github.com/glaucioscheibel/exercicios?tab=readme-ov-file#programa%C3%A7%C3%A3o-concorrente)
@@ -72,4 +72,4 @@ Faz a thread entrar em estado de espera (*waiting*) por pelo menos o tempo espec
 É uma estrutura de controle usada para gerenciar o acesso concorrente a recursos compartilhados.
 
 **Qual a diferença entre mutex e semáforo?**  
-Um mutex é um tipo especial de semáforo com valor binário (0 ou 1), utilizado para exclusão mútua.
+Um mutex é um tipo especial de semáforo com valor binário (0 ou 1), utilizado para exclusão mútua. -->
